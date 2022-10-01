@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.onebusaway</groupId>
+    <groupId>com.github.pi-ware</groupId>
     <artifactId>onebusaway</artifactId>
-    <version>1.2.6-SNAPSHOT</version>
+    <version>onebusaway-1.2.8</version>
   </parent>
   <artifactId>onebusaway-csv-entities</artifactId>
   <version>1.1.7-SNAPSHOT</version>
@@ -24,6 +24,13 @@
     <url>https://github.com/OneBusAway/onebusaway-csv-entities/issues</url>
   </issueManagement>
 
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
+
   <distributionManagement>
     <!-- Even though we specify this in the parent pom, we need to specify it here to have full control over the url -->
     <site>
@@ -37,6 +44,11 @@
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
       <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>me.champeau.openbeans</groupId>
+      <artifactId>openbeans</artifactId>
+      <version>1.0.2</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>

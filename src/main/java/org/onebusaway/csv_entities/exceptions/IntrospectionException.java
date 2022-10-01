@@ -15,7 +15,7 @@
  */
 package org.onebusaway.csv_entities.exceptions;
 
-import java.beans.Introspector;
+import com.googlecode.openbeans.Introspector;
 
 /**
  * Indicates that introspection failed for the specified entity type. Usually

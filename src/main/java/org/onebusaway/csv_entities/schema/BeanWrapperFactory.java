@@ -15,12 +15,12 @@
  */
 package org.onebusaway.csv_entities.schema;
 
-import java.beans.BeanInfo;
-import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.googlecode.openbeans.BeanInfo;
+import com.googlecode.openbeans.PropertyDescriptor;
 import org.onebusaway.csv_entities.exceptions.IntrospectionException;
 import org.onebusaway.csv_entities.exceptions.MethodInvocationException;
 import org.onebusaway.csv_entities.exceptions.NoSuchPropertyException;
@@ -34,7 +34,7 @@ public class BeanWrapperFactory {
     BeanClassWrapperImpl classWrapper = _classWrappers.get(c);
     if (classWrapper == null) {
       try {
-        BeanInfo beanInfo = java.beans.Introspector.getBeanInfo(c);
+        BeanInfo beanInfo = com.googlecode.openbeans.Introspector.getBeanInfo(c);
         classWrapper = new BeanClassWrapperImpl(beanInfo);
         _classWrappers.put(c, classWrapper);
       } catch (Exception ex) {
