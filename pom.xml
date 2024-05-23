@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.github.pi-ware</groupId>
     <artifactId>onebusaway</artifactId>
-    <version>onebusaway-1.2.8</version>
+    <version>1.2.8.1</version>
   </parent>
   <artifactId>onebusaway-csv-entities</artifactId>
   <version>1.1.7.1</version>
@@ -14,14 +14,14 @@
   <url>https://github.com/OneBusAway/onebusaway-csv-entities/wiki/</url>
 
   <scm>
-    <connection>scm:git:https://github.com/OneBusAway/onebusaway-csv-entities.git</connection>
-    <developerConnection>scm:git:https://github.com/OneBusAway/onebusaway-csv-entities.git</developerConnection>
-    <url>https://github.com/OneBusAway/onebusaway-csv-entities</url>
+    <connection>scm:git:https://github.com/pi-ware/onebusaway-csv-entities.git</connection>
+    <developerConnection>scm:git:https://github.com/pi-ware/onebusaway-csv-entities.git</developerConnection>
+    <url>https://github.com/pi-ware/onebusaway-csv-entities</url>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/OneBusAway/onebusaway-csv-entities/issues</url>
+    <url>https://github.com/pi-ware/onebusaway-csv-entities/issues</url>
   </issueManagement>
 
   <repositories>
